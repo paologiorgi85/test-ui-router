@@ -1,3 +1,7 @@
+function aboutController() {
+
+}
+
 angular.module('testUiRouteApp').component('about', {
-  template:  'This is About'
+  templateUrl: 'about.html'
 })

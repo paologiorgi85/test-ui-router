@@ -30,18 +30,17 @@ myApp.config(function($stateProvider) {
     {
       name: 'home',
       url: '/home',
-      component: 'home'
-      ,template:  '<h3>This is Home</h3>'
+      templateUrl: 'scripts/home/home.html'
     },
     {
       name: 'about',
       url: '/about',
-      component: 'about'
+      templateUrl: 'scripts/about/about.html'
     },
     {
       name: 'contact',
       url: '/contact',
-      component: 'contact'
+      templateUrl: 'scripts/contact/contact.html'
     }
   ];
   states.forEach(function(state) {
