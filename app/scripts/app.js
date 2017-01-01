@@ -25,7 +25,10 @@ myApp.run(
   ]
 );
 
-myApp.config(function($stateProvider) {
+myApp.config(function($stateProvider, $urlRouterProvider) {
+
+  $urlRouterProvider.otherwise('/home');
+
   var states = [
     {
       name: 'home',
@@ -40,6 +43,7 @@ myApp.config(function($stateProvider) {
     {
       name: 'contact',
       url: '/contact',
+      //controller: 'contactCtrl',
       templateUrl: 'scripts/contact/contact.html'
     }
   ];

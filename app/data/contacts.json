@@ -1,0 +1,5 @@
+[
+  { "name":"Pippo", "done":true },
+  { "name":"Pluto", "done":false},
+  { "name":"Plinio", "done":false }
+]
